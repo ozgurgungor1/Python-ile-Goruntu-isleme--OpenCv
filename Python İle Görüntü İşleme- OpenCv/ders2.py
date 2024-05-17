@@ -18,15 +18,11 @@ img=cv2.imread("resimler\zeytin.png")
 canny= cv2.Canny(img,10,200)
 
 
-
-
-
 cv2.imshow("Zeytin Fotosu ",img)
 cv2.imshow("Zeytin Fotosu Bulanik",canny)
 
 
-
-
-
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
